@@ -7,10 +7,9 @@
 //const result = confirm("Are you here?");
 const answer = prompt("Do you have a cat?","No");
 console.log(typeof(answer));
-
-function newContent() {
-    alert("загрузка нового контента");
-    document.open();
-    document.write("<h1>Долой старое, да здравствует новое!</h1>");
-    document.close();
-  }
+let baseURL = 'toys';
+console.log(`http://webono.com/${baseURL}`);
+console.log(`arr` + "-object");
+console.log(4 + +"5");
+console.log(2*5 == '10');// не строгое равенство
+console.log(2*5 === '10'); //строгое равенство по типу данных
